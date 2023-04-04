@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: lightgray;
+ }
+/*HEADER*/
+.container_header{
+    background-color: white;
+    height: 70px;    
+}
+#logo{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#Titolo_logo{
+    display: inline-block;
+    color: black;
+    font-size: 40px;
+    vertical-align: text-bottom;   
+}
+/*FINE HEADER*/
+
