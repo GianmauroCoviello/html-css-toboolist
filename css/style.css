@@ -2,18 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
  }
  body{
     background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    
  }
 /*HEADER*/
 .container_header{
     background-color: white;
-    height: 70px;    
+    padding-bottom: 10px;  
 }
 #logo{
     padding-top: 10px;
     padding-left: 20px;
+    vertical-align: bottom;
 }
 
 #Titolo_logo{
@@ -24,3 +28,154 @@
 }
 /*FINE HEADER*/
 
+/*INIZIO MAIN*/
+
+/*INIZIO PRIMA PARTE DEL MAIN */
+#container_main{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-bottom: 50px;        
+}
+.head_main{
+    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-left: 50px;
+
+}
+#button_blue{
+    background-color: rgb(74, 160, 222);
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+    font-size: 11px;
+}
+#Button_white{
+    padding: 8px;
+    background-color: white;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 3px;
+    font-size: 11px;
+    
+}
+hr{
+    color: lightgray;
+    
+}
+/*FINE PRIMA PARTE DEL MAIN */
+/*CLASSI E ID DELLE LISTE*/
+li{
+    font-size: 15px;
+}
+ul{
+    list-style-type: none;
+}
+.title_list{
+    padding-bottom: 10px;
+}
+#first_list{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#second_list{
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+.list_item{
+    padding-bottom: 10px;
+}
+
+#terza_list{
+    margin-left: 50px;
+}
+
+/* CLASSI E ID DEI SIMBOLI DELLE LISTE */
+.arrow{
+    font-size: 12px;
+}
+.check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 10px;
+}
+.uncheck{
+    color: red;
+    border: 1px solid red;
+    border-radius: 55%;
+    padding: 3px;
+    font-size: 10px;
+}
+/* FINE CLASSI E ID DEI SIMBOLI DELLE LISTE */
+/* COLORI DEI BUTTOM */
+.blue_buttom{
+    background-color: rgb(74, 160, 222);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+    
+}
+#purple_buttom{
+    background-color: purple;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+
+}
+#green_buttom{
+    background-color: green;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+
+}
+#orange_buttom{
+    background-color: orange;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+
+}
+#magenta_buttom{
+    background-color: magenta;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+
+}
+#olive_buttom{
+    background-color: olive;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+
+
+}
+/*FINE COLORI DEI BUTTOM */
+
+/*FINE MAIN*/
